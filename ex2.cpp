@@ -17,6 +17,7 @@ int main(){
     for(int i=0;i<les.size();i++){
         les[i] = tolower(les[i]);
     }
+    
 
 }
 
