@@ -7,6 +7,7 @@ class circle {
     circle();
     circle(int r);
     double getarea();
+    double getline();
 };
 
 circle::circle(){
@@ -24,3 +25,6 @@ double circle::getarea(){
     return 3.14*3.14*radius;
 }
 
+double circle::getline(){
+    return 3.14*2*radius;
+}
